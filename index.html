@@ -6,11 +6,29 @@
     <title>Jul</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    
+<body class="flex column center">
+
+    <h1>Hva ønsker du deg til jul?</h1>    
+    <a href="./julenisse.html">Er du julenissen?</a>
+
+
+    <div id="wishBox" class="flex column center m10">
+        <label class="flex column center m2">
+            Hva er ditt ønske?
+            <input onchange="onskeSkriving(event)" type="text">
+        </label>
+
+        <select id="typeGave" class="m2" onchange="typeChange(event)">
+            <option disabled selected hidden value="">Velg type gave</option>
+            <option value="Fysisk">Fysisk</option>
+            <option value="Ikke fysisk">Ikke fysisk</option>
+        </select>
+
+        <button id="submitButton" disabled class="m2">Send inn ønske</button>
+    </div>
+
+    <h3 hidden id="finish">Nissen har fått ditt ønske</h3>
 
     <script src="script.js"></script>
-
 </body>
 </html>

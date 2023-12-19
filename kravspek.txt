@@ -1,0 +1,7 @@
+Kravspek
+
+- to typer ønsker
+    - sjekke om du er voksen eller barn
+- lyse av julekos
+- lagre juleønsker i localstorage
+- julenissen skal ha en egen side

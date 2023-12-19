@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+}
+
+.m2 {
+    margin: 2px;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+#onskeDiv {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+
+#onskeDiv div {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20%;
+    max-width: 200px;    
+}
+
+#onskeDiv div p {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
